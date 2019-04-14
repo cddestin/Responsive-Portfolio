@@ -14,6 +14,12 @@ body {
 
 }
 
+.profilePic{
+  width: 200px;
+  float:left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
 /*general*/
 
 .container {
@@ -33,6 +39,8 @@ p {
   margin-bottom: 20px;
 
 }
+
+
 
 p:last-child {
 
@@ -238,8 +246,8 @@ h3,
 
 .auth-image {
 
-  width       : 40px;
-  height      : 50%;
+  width       : 200px;
+  height      : auto;
   margin-top  : 10px;
   float       : left;
   margin-right: 25px;
@@ -475,7 +483,7 @@ input[type=submit] {
 
   .auth-image {
 
-    width       : 50%;
+    width       : 100%;
     max-width:  : 640px;
     height      : auto;
     margin-bottom: 20px;
@@ -688,7 +696,7 @@ input[type=submit] {
 
     .auth-image {
 
-    width       : 50%;
+    width       : 100%;
     max-width   : 768px;
     height      : auto;
     margin-top  : 10px;
@@ -749,7 +757,7 @@ input[type=submit] {
 
   .container {
 
-    width    : 50%;
+    width    : 100%;
     max-width: 980px;
     margin   : 0 auto;
     clear    : both;
@@ -927,7 +935,15 @@ input[type=submit] {
 
   }
 
-    .auth-image {width: 50%;max-width   : 980px;margin-top  : 10px;float       : left;margin-right: 25px;}
+    .auth-image {
+
+    width       : 100%;
+    max-width   : 980px;
+    margin-top  : 10px;
+    float       : left;
+    margin-right: 25px;
+
+  }
 
   /*portfolio page*/
 
